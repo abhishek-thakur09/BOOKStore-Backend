@@ -4,7 +4,6 @@ const app = express();
 const mongodb = require("./database/dbConnection");
 const http = require("http");
 
-<<<<<<< HEAD
 
 app.get('/user/:userID/:password', (req, res)=>{
 
@@ -14,10 +13,6 @@ app.get('/user/:userID/:password', (req, res)=>{
         firstName: "Abhishek",
         lastName :"Thakur"
     });
-=======
-app.get("/", (req, res)=>{
-    res.send("Namste Abhishek");
->>>>>>> 92c797d2379022f3bf6f150f50a9e3e2ee79ce2a
 })
 
 
