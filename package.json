@@ -1,0 +1,19 @@
+{
+  "name": "bookstore-backend",
+  "version": "1.0.0",
+  "description": "Backend for BookStore ",
+  "main": "index.js",
+  "scripts": {
+    "dev":" nodemon src/App.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
